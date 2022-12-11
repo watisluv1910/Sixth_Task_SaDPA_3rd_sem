@@ -110,6 +110,7 @@ void findSubmatrixes(vector<vector<size_t>> matrix, size_t search_width)
 	}
 	
 	cout << "\nSubmatrix was not found.\n";
+	cout << "Number of iterations: " << iter_counter << "\n";
 }
 
 // Use branch and bound method to find submatrix
@@ -176,6 +177,7 @@ void findSubmatrixesOptimized(vector<vector<size_t>> &matrix, size_t search_widt
 	}
 
 	cout << "\nSubmatrix was not found.\n";
+	cout << "Number of iterations: " << iter_counter << "\n";
 }
 
 //size_t width = matrix.at(0).size();
